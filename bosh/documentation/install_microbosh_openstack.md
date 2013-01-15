@@ -4,7 +4,7 @@
 
  
    1. Install the OpenStack. Please 
-<a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
+<a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
 
 
 Create a VM using horizon and you should be able to SSH into that VM- this is also called inception VM.

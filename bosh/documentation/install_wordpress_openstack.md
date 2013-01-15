@@ -4,9 +4,9 @@
 
 
   1. Install the OpenStack. Please 
-<a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
+<a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
   2. Install the Micro BOSH. Please
-<a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/install_microbosh_openstack.md">Click here</a> to know how to install.</li>
+<a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/install_microbosh_openstack.md">Click here</a> to know how to install.</li>
 
 
 ###Step 1 : Download the latest BOSH stem cell for OpenStack

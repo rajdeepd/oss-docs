@@ -61,7 +61,7 @@ Networking Topology : Flat DHCP (Nova Network service running on Controller Node
 
      apt-get install vim
 
-Copy script (openstack_base_1.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_base_1.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
 It will install ntp, tgt target, openiscsi-client. 
 
@@ -106,7 +106,7 @@ restart the networking interface.
 
     /etc/network/interfaces restart
 
-Copy script (openstack_base_2.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a>  and run. 
+Copy script (openstack_base_2.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a>  and run. 
 
 It will install bridge-utils, rabbitmq-server and kvm.
 
@@ -128,7 +128,7 @@ Note:- Now you can check the support for the virtualization using the below comm
 
 MySQL - Nova and glance will use MySQL to store their runtime data.
 
-Copy script (openstack_mysql.sh)  from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_mysql.sh)  from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
 It will install mysql and also creates OpenStack databases and users. 
 
@@ -155,7 +155,7 @@ After MySQL is running, you should be able to login with any of the OpenStack us
 
 The Keystone service manages users, tenants (accounts or projects) and offers a common identity system for all the OpenStack components.
 
-Copy script (openstack_keystone.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_keystone.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
 It will install keystone.
 
@@ -267,7 +267,7 @@ We need to install lvm2 (logical Volume Manager) to create volumes.
      Volume group "nova-volumes" successfully created
  
 
-Copy script (openstack_glance.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_glance.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
     ./openstack_glance.sh
 
@@ -304,7 +304,7 @@ We will execute this file whenever we need to restart nova.
 
 
 
-Copy script (openstack_nova.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_nova.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
     ./openstack_nova.sh
 
@@ -347,7 +347,7 @@ Nova Version:
 
 ##6. Installing Horizon
 
-Copy script (openstack_horizon.sh) from  <a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
+Copy script (openstack_horizon.sh) from  <a href="https://github.com/ganeshjitta/oss-docs/tree/master/bosh/documentation/openstack_scripts"> here </a> and run. 
 
 Install Dashboard
 
