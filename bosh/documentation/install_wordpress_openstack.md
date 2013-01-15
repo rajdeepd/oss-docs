@@ -4,37 +4,36 @@
 
 
   1. Install the OpenStack. Please 
-<a href="https://github.com/rajdeepd/bosh-oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
+<a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/install_openstack.md">Click here</a> to know how to install.</li>
   2. Install the Micro BOSH. Please
-<a href="https://github.com/rajdeepd/bosh-oss-docs/tree/master/bosh/documentation/install_microbosh_openstack.md">Click here</a> to know how to install.</li>
+<a href="https://github.com/ganeshjitta/bosh-oss-docs/tree/master/bosh/documentation/install_microbosh_openstack.md">Click here</a> to know how to install.</li>
 
 
 ###Step 1 : Download the latest BOSH stem cell for OpenStack
 
-    bosh download public stemcell bosh-stemcell-openstack-0.6.7.tgz
+   root@inception-vm:/home/ubuntu/stemcells/# bosh download public stemcell bosh-stemcell-openstack-0.6.7.tgz
 
 
 ###Step 2 : Upload it to your micro BOSH instance
 
-    bosh upload stemcell bosh-stemcell-openstack-0.6.7.tgz
+    root@inception-vm:/home/ubuntu/stemcells/# bosh upload stemcell bosh-stemcell-openstack-0.6.7.tgz
 
 ###Step 3 : Git clone the BOSH sample release
 
-    git clone git://github.com/cloudfoundry/bosh-sample-release.git
+    root@inception-vm:/home/ubuntu/releases/# git clone git://github.com/cloudfoundry/bosh-sample-release.git
 
-    cd bosh-sample-release
+    root@inception-vm:/home/ubuntu/releases/# cd bosh-sample-release
 
 
 ###Step 4 : Upload the release to micro BOSH
 
-    bosh upload release releases/wordpress-1.yml
-
+    root@inception-vm:/home/ubuntu/releases/bosh-sample-release#  bosh upload release releases/wordpress-1.yml
 
 ###Step 5 : Prepare the deployment manifest file for OpenStack wordpress
 
 Create Manifest File
 
-    vim wordpress-openstack.yml
+    root@inception-vm:/home/ubuntu/deployments/# vim wordpress-openstack.yml
 
 Copy the below content and paste it in wordpress-openstack.yml
 
@@ -172,13 +171,13 @@ Note:-
  
 ###Step 6 : Deploy wordpress
 
-    bosh deployment wordpress-openstack.yml
+   root@inception-vm:/home/ubuntu/deployments/# bosh deployment wordpress-openstack.yml
 
 Output will be:
 
 Deployment set to `/home/ubuntu/deployments/wordpress-openstack.yml'
 
-    bosh deploy
+    root@inception-vm:/home/ubuntu/deployments/# bosh deploy
 
 
 Output will be:
