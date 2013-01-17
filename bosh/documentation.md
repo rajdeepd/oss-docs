@@ -61,7 +61,7 @@ This tutorial describes  the steps involved in deploying a sample Wordpress appl
 
 ####[Install Micro BOSH on OpenStack](https://github.com/rajdeepd/oss-docs/blob/master/bosh/documentation/install_microbosh_openstack.md) ####
 
-####[Install Wordpress on Open Stack](https://github.com/rajdeepd/oss-docs/blob/master/bosh/documentation/install_wordpress_openstack.md)
+####[Install Wordpress on OpenStack](https://github.com/rajdeepd/oss-docs/blob/master/bosh/documentation/install_wordpress_openstack.md)
 
 ##Reference Documents ##
 ##### [BOSH CLI Reference] (https://github.com/cloudfoundry/oss-docs/blob/master/bosh/documentation/bosh_cli_reference.md) #####
