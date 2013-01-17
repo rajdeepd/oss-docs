@@ -155,8 +155,9 @@ Output will be like this:
     cp /var/tmp/bosh/agent-x.y.z-nnnnn/work/work/micro-bosh-stemcell-openstack-x.y.z.tgz .
 
 
-##Step 7 : Use Bosh CLI on Inception VM to deploy Micro Bosh stemcell to Glance  This creates the Micro Bosh VM and it shows up in Horizon
+##Step 7 : Deploy Micro Bosh stemcell to Glance  ##
 
+This creates the Micro Bosh VM and it shows up in Horizon 
 
     mkdir -p deployments/microbosh-openstack
     cd deployments/microbosh-openstack

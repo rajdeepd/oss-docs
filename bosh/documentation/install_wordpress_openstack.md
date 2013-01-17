@@ -30,7 +30,7 @@
 
 ##Step 5 : Prepare the deployment manifest file for OpenStack word press
 
-<b>Create Manifest File</b>
+**Create Manifest File**
 
     vim wordpress-openstack.yml
 
@@ -160,13 +160,12 @@ Copy the below content and paste it in `wordpress-openstack.yml`
 
 
 **Note:**
-<ol>
-<li>Replace Only the red colored values with actual ones.</li>
-<li>Generate hashed password for f00bar</li>
-<li>Replace the password with hashed password.</li>
-</ol>
+
+* 	Replace the IPs of your environment
+*	Generate hashed password for f00bar</li>
+* 	Replace the password with hashed password.</li>
  
-##Step 6 : Deploy wordpress
+##Step 6 : Deploy WordPress
 
 * Set the deployment to the manifest file
 
@@ -260,4 +259,4 @@ Copy the below content and paste it in `wordpress-openstack.yml`
     Deployed `wordpress-openstack.yml' to `microbosh-openstack'
 
 
-This completes the deployment of wordpress of OpenStack Essex using MicroBOSH
+This completes the deployment of WordPress of OpenStack Essex using MicroBOSH
