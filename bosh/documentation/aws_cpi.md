@@ -59,8 +59,15 @@ Figure below shows the flow control for the method `create_stemcell(image_path, 
 
 ##Create VM ##
 
-
-
+1. Get the `security_groups`
+2. Get images from `@ec2` client for the `stemcell_id`
+3. Populate `instance_params`
+4. Call `create_instance` on `@ec2` client.
+5. Call configure `network_configurator` 
+6. Setup initial agent settings
+7. Update `@registry` with the agent settings. registry is one of the Bosh Components.
+![aws_cpi_create_vm](https://raw.github.com/rajdeepd/oss-docs/master/bosh/documentation/aws_images/aws_cpi_create_vm.png)
+    
 ##Delete VM ##
 
 
