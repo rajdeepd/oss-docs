@@ -48,7 +48,7 @@ Steps outlined below are the flow control implemented to extract and upload kern
 3.  Attach ebs volume `volume` to `instance`
 4. Copy the StemCell Image to the `ebs_volume`
 5. Take a Snapshot of the volume and instantiate the image `@ec2.images.create(params)`
-6
+
 Figure below shows the flow control for the method `create_stemcell(image_path, cloud_properties)`
 
 ![aws_cpi_createstemcell](https://raw.github.com/rajdeepd/oss-docs/master/bosh/documentation/aws_images/aws_cpi_createstemcell.png)
@@ -70,8 +70,7 @@ Figure below shows the flow control for the method `create_stemcell(image_path, 
     
 ##Delete VM ##
 
-
-
+![aws_cpi_delete_vm](https://raw.github.com/rajdeepd/oss-docs/master/bosh/documentation/aws_images/aws_cpi_delete_vm.png)
 
 ##Create Disk ##
 
